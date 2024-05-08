@@ -686,6 +686,20 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
   overflow-x: scroll;
 }
 
+.family-body::-webkit-scrollbar {
+  height: 10px;
+  width: 1920px;
+}
+.family-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+.family-body::-webkit-scrollbar-thumb {
+  background-color: var(--color-dark-gray);
+  border-radius: var(--border-radius);
+}
+
+
+
 .family-image{
   scroll-snap-align: start;
 }
